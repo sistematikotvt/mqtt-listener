@@ -1,0 +1,26 @@
+{
+    "development": {
+        "config_id": "production",
+		"db_name": "XXXXXXX",
+		"db_userName": "XXXXXX",
+		"db_password": "XXXXXXX",
+		"db_server": "XX.XXX.XX.XXX",
+		"db_port": 7233,
+		"mqtt_keepalive": 10,
+		"mqtt_host": "XX.XXX.XX.XXX",
+		"mqtt_port": 82,
+		"mqtt_clientId": "XXXXXXXXXXX",
+		"mqtt_username": "XXXXXXXXXXXX",
+		"mqtt_password": "XXXXXXXX",
+		"mqtt_topic": "XXXXXXX",
+		"mqtt_QoS": 2
+    },
+    "production": {
+        "config_id": "development",
+		"db_name": "XXXXX",
+		"db_userName": "XXXXX",
+		"db_password": "XXXXX",
+		"db_server": "XXXXX",
+		"db_port": 81
+    }
+}
