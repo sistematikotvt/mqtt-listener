@@ -2,7 +2,7 @@
   "name": "mqtt-listener",
   "license": "",
   "scripts": {
-    "start": "node listener.js"
+    "start": "node src/listener.js"
   },
   "private": true,
   "dependencies": {
